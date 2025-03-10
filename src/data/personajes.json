@@ -1,0 +1,37 @@
+[
+  { "id": 1, "name": "Mickey Mouse", "image": "/src/assets/mickey.png" },
+  { "id": 2, "name": "Minnie Mouse", "image": "/src/assets/minnie.png" },
+  { "id": 3, "name": "Donald Duck", "image": "/src/assets/donald.png" },
+  { "id": 4, "name": "Goofy", "image": "/src/assets/goofy.png" },
+  { "id": 5, "name": "Pluto", "image": "/src/assets/pluto.png" },
+
+  { "id": 6, "name": "Simba", "image": "/src/assets/simba.png" },
+  { "id": 7, "name": "Mufasa", "image": "/src/assets/mufasa.png" },
+  { "id": 8, "name": "Nala", "image": "/src/assets/nala.png" },
+  { "id": 9, "name": "Scar", "image": "/src/assets/scar.png" },
+  { "id": 10, "name": "Timon", "image": "/src/assets/timon.png" },
+
+  { "id": 11, "name": "Pumbaa", "image": "/src/assets/pumbaa.png" },
+  { "id": 12, "name": "Woody", "image": "/src/assets/woody.png" },
+  { "id": 13, "name": "Buzz Lightyear", "image": "/src/assets/buzz.png" },
+  { "id": 14, "name": "Jessie", "image": "/src/assets/jessie.png" },
+  { "id": 15, "name": "Rex", "image": "/src/assets/rex.png" },
+
+  { "id": 16, "name": "Aladdin", "image": "/src/assets/aladdin.png" },
+  { "id": 17, "name": "Jasmine", "image": "/src/assets/jasmine.png" },
+  { "id": 18, "name": "Genio", "image": "/src/assets/genio.png" },
+  { "id": 19, "name": "Jafar", "image": "/src/assets/jafar.png" },
+  { "id": 20, "name": "Abu", "image": "/src/assets/abu.png" },
+
+  { "id": 21, "name": "Rayo McQueen", "image": "/src/assets/rayo.png" },
+  { "id": 22, "name": "Mate", "image": "/src/assets/mate.png" },
+  { "id": 23, "name": "Sally", "image": "/src/assets/sally.png" },
+  { "id": 24, "name": "Doc Hudson", "image": "/src/assets/doc.png" },
+  { "id": 25, "name": "Luigi", "image": "/src/assets/luigi.png" },
+
+  { "id": 26, "name": "Peter Pan", "image": "/src/assets/peterpan.png" },
+  { "id": 27, "name": "Wendy", "image": "/src/assets/wendy.png" },
+  { "id": 28, "name": "Capitán Garfio", "image": "/src/assets/garfio.png" },
+  { "id": 29, "name": "Campanita", "image": "/src/assets/campanita.png" },
+  { "id": 30, "name": "Dumbo", "image": "/src/assets/dumbo.png" }
+]
