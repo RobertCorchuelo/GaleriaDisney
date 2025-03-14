@@ -35,12 +35,8 @@ export default function App() {
       className={darkMode ? "dark" : "light"} // Aplica la clase CSS según el modo oscuro/claro
       style={{ minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center" }} 
     >
-      {/* Botón para alternar entre modo claro y oscuro */}
-      <button onClick={() => setDarkMode(!darkMode)} className="toggle-mode">
-        {darkMode ? "Modo Claro" : "Modo Oscuro"}
-      </button>
 
-      <h1>Personajes de disney</h1>
+      <h1>SPARKING ZERO</h1>
 
       {/* Componente de barra de búsqueda */}
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />

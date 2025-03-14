@@ -1,20 +1,24 @@
-body {
-  font-family: Arial, sans-serif;
-  transition: background 0.3s, color 0.3s;
+@font-face {
+  font-family: 'DBZ';
+  src: url('../src/assets/DragonballZFonts/Saiyan-Sans.ttf') format('truetype');
+  font-weight: normal;
 }
-.light {
-  background: white;
-  color: black;
+@font-face {
+  font-family: 'DBZ';
+  src: url('../src/assets/DragonballZFonts/Saiyan-Sans.ttf') format('truetype');
+  font-weight: bold;
 }
 
-.dark h1{
-  
-  color: white;
+body {
+  font-family: 'DBZ', sans-serif;
+  transition: background 0.3s, color 0.3s;
+  background: url('./assets/fondoDBZSparkingZero.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
-.dark {
-  background: black;  
-}
+
 h1 {
+  color: aliceblue;
+  font-size: 50px;
   text-align: center;
 }
 .search-bar {
@@ -22,7 +26,7 @@ h1 {
   border-radius: 35px;
   margin: 10px auto;
   padding: 10px;
-  width: 60%;
+  width: 6  0%;
   font-size: 16px;
 }
 .toggle-mode {
@@ -42,7 +46,7 @@ h1 {
 }
 
 .card {
-  background: #eee;
+  background: #eeeeeed2;
   border-radius: 30px;
   border: 2px solid black;
   padding: 15px;
@@ -55,14 +59,55 @@ h1 {
   height: auto;
   border-radius: 10px;
 }
+.boton-sonido{
+  background: linear-gradient(to bottom, #efeff8, #ffffff); 
+  color: #000000; 
+  border: 2px solid #000000;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
 
-/* Mejora el responsive */
-@media (max-width: 600px) {
+.boton-sonido:hover{
+    background: #FFA500; /* Cambia a naranja en hover */
+    color: #1C1C1C;
+    transform: scale(1.1);
+}
+/* 🔹 Responsive para móviles */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 35px;
+  }
+  .search-bar {
+    width: 80%;
+    font-size: 14px;
+  }
   .character-list {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    display:inline-block;
+  }
+  .card{
+    width: 400px ;
+  }
+
+  .card img{
+    width: 25%;
   }
 }
 
+/* 🔹 Responsive para pantallas pequeñas */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+  .character-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+  }
+}
 .card:hover {
   transform: scale(1.05);
   cursor: pointer;
